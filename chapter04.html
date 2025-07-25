@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    
+  <meta charset="UTF-8" />
+  <title>Python Loop Interactive Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div style="text-align: left; margin-top: 1rem;">
+    <a href="index.html" style="text-decoration: none;">
+      <button style="font-size: 16px;">🏠 Home</button>
+    </a>
+  </div>
+<div class="sidebar" id="sidebar">
+  <a href="index.html"></a>
+</div>
+<script>
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('collapsed');
+  }
+</script>
+
+<div class="main-wrapper">
+<div class="main-content">
+<h1>Chapter 04: Python Loop Interactive Quiz</h1>
+  <p>This page includes sections for <strong>for</strong> and <strong>while</strong> loops. Please read the explanation, then complete the quiz below each section.</p>
+
+  <div id="quiz-container"></div>
+  <div id="score-badge">0</div>
+
+  <script src="script.js"></script>
+</div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const toggleBtn = document.getElementById("sidebarToggle");
+    const sidebar = document.getElementById("sidebar");
+    if (toggleBtn && sidebar) {
+      toggleBtn.addEventListener("click", function() {
+        sidebar.style.display = (sidebar.style.display === "none" || sidebar.style.display === "") ? "block" : "none";
+      });
+    }
+  });
+</script>
+
+
+<div style="text-align:center; margin-top: 2rem;"><a href="chapter03.html"><button>← Previous</button></a> <a href="chapter05.html"><button>Next →</button></a></div>
+</body>
+</html>

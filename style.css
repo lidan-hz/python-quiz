@@ -1,0 +1,78 @@
+
+body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; background: #f9f9f9; color: #333; }
+h1, h2 { color: #007bff; }
+pre { background: #f0f0f0; padding: 10px; border-radius: 5px; }
+.question { margin-bottom: 2em; position: relative; }
+.option {
+  margin: 8px 0;
+  padding: 8px;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+.option:hover { background: #f0f8ff; }
+.correct {
+  background: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+  font-weight: bold;
+}
+.wrong {
+  background: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+.per-question-score {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-weight: bold;
+}
+#score-badge {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.main-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+h1, h2, h3 {
+  color: #2c3e50;
+}
+.question {
+  background: #f9f9f9;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  border-left: 5px solid #4caf50;
+}
+.options label {
+  display: block;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+button {
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background-color: #0056b3;
+}

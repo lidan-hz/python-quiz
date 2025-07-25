@@ -1,0 +1,32 @@
+[
+  {
+    "code": "count = 0\nwhile count < 5:\n  print(count)\n  count += 1",
+    "options": [
+      "0 1 2 3",
+      "0 1 2 3 4",
+      "1 2 3 4 5",
+      "0 1 2 3 4 5"
+    ],
+    "answer": 1
+  },
+  {
+    "code": "i = 1\nwhile i <= 3:\n  print(i)\n  i += 1",
+    "options": [
+      "1 2 3",
+      "1 2",
+      "0 1 2 3",
+      "2 3 4"
+    ],
+    "answer": 0
+  },
+  {
+    "code": "x = 10\nwhile x < 10:\n  print(x)\n  x += 1",
+    "options": [
+      "10",
+      "None",
+      "10 11",
+      "0"
+    ],
+    "answer": 1
+  }
+]
